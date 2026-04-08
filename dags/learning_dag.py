@@ -196,9 +196,7 @@ def sample_etl_pipeline():
     generate_summary(loaded)
 
 
-# =============================================================================
-# INSTANTIATE THE DAG
-# =============================================================================
+
 
 # This call registers the DAG with Airflow
 dag = sample_etl_pipeline()
